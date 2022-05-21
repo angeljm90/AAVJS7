@@ -1,14 +1,14 @@
-﻿using AAVJS7.iOS;
-using Foundation;
+﻿
+using AAVJS7.Droid;
 using SQLite;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using UIKit;
-[assembly: Xamarin.Forms.Dependency(typeof(SqliteClient))]
-namespace AAVJS7.iOS
+
+[assembly:Xamarin.Forms.Dependency(typeof(SqliteClient))]
+namespace AAVJS7.Droid
 {
     public class SqliteClient : DataBase
     {

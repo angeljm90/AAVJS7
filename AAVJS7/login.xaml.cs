@@ -57,7 +57,7 @@ namespace AAVJS7
 
         public static IEnumerable<Estudiante>select_Where(SQLiteConnection db, string usuario, string contrasena)
         {
-            return db.Query<Estudiante>("select * fron Estudiante where Usuario=? and Contrasena=?", usuario, contrasena);
+            return db.Query<Estudiante>("select * from Estudiante where Usuario=? and Contrasena=?", usuario, contrasena);
 
         }
     }

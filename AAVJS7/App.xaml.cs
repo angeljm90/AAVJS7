@@ -9,8 +9,8 @@ namespace AAVJS7
         public App()
         {
             InitializeComponent();
+            MainPage = new NavigationPage(new login());
 
-            MainPage = new MainPage();
         }
 
         protected override void OnStart()
